@@ -1,0 +1,57 @@
+.pr{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(199, 119, 119);
+    border-radius: 10px 0px;
+    overflow: hidden;
+    position: relative;
+}
+.pr-browser{
+    display: flex;
+    height: 20px;
+    background-color: blanchedalmond;
+    align-items: center;
+}
+.pr-circles{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin: 3px;
+}
+.pr-cards{
+    position: absolute; top:20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    transition: all 1.0s ease;
+    
+}
+.pr-cfront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: aqua;
+
+}
+.pr-graph{
+    position: absolute;
+    display: flex;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+.pr-cards:hover{
+    transform: rotateY(180deg);
+}
+.pr-cback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: rgb(66, 230, 25);
+    transform: rotateY(180deg);
+}
