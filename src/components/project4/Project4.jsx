@@ -14,7 +14,16 @@ const Project = () => {
             <img src={graph4} alt="" className='pr-graph' />
           </div>
           <div className='pr-cback'>
-            back
+          <div className='pr-texts'>
+              Using EvalML and Random-Forest Life prediction after Lobectomy.
+              <div className='pr-list'>
+                <ul>
+                  <li>Developed Random-Forest Model for life prediction.</li>
+                  <li>Used EvalML to verify no other model would outperform the predictions made by 
+                    Random_Forest for that particular dataset.</li>
+                </ul> 
+              </div>
+            </div>
           </div>
         </div>
       </div>

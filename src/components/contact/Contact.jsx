@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import phone from '../../img/phone.png'
 import mail from '../../img/mail.png'
 import address from '../../img/adress.png'
+import link from '../../img/linkedin.JPG'
 import { ThemeContext } from '../../context';
 const Contact = () => {
 
@@ -41,6 +42,11 @@ const Contact = () => {
             <div className='c-img-item'>
               <img src={address} alt="" className='c-imgp' />
               Mathkol Vivekananda Road Kolkata-700065.
+            </div>
+            <div className='c-img-item'>
+              <img src={link} alt="" className='c-imgp' />
+              <a className='linkedin' href="https://www.linkedin.com/in/somtirtha-mukhopadhyay/">
+                LinkedIn Account</a>
             </div>
           </div>
         </div>

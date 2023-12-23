@@ -1,9 +1,9 @@
 import React from 'react'
-import './project2.css'
-import graph from '../../img/optunaexp.png'
+import './project5.css'
+import graph5 from '../../img/portfolio.gif'
 const Project = () => {
   return (
-    <div className='pr'>
+    <div className='pr5'>
       <div className='pr-browser'>
 
         <div className='pr-circles'></div>
@@ -11,15 +11,15 @@ const Project = () => {
         <div className='pr-circles'></div>
         <div className='pr-cards'>
           <div className='pr-cfront'>
-            <img src={graph} alt="" className='pr-graph' />
+            <img src={graph5} alt="" className='pr-graph' />
           </div>
           <div className='pr-cback'>
           <div className='pr-texts'>
-              Using Optuna and Tensorflow analysis of SMF.
+              Various Apache Solr related Projects
               <div className='pr-list'>
                 <ul>
-                  <li>Optuna single as well as multi objective function was used to perform analysis.</li>
-                  <li>Finally the best resulting Neural Network model was taken and analysis was made.</li>
+                  <li>Designed various RESTful API's for indexing documents on Apache Solr</li>
+                  <li>Various Randomized Systems to keep Data-Sanity between Solr Index and Databases</li>
                 </ul> 
               </div>
             </div>

@@ -1,4 +1,4 @@
-.pr{
+.pr5{
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
@@ -34,10 +34,10 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background-color: rgb(67, 68, 68);
+    background-color: aqua;
 
 }
-.pr-graph{
+.pr-graph4{
     position: absolute;
     display: flex;
     object-fit: fill;
@@ -52,24 +52,14 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background-color: rgb(95, 93, 93);
     transform: rotateY(180deg);
 }
-.pr-texts{
-    color: #59b256;
-    font-size: 20px;
-    font-weight: 500;
-    flex-direction: column;
-    
-}
 .pr-list{
-    font-size: 14px;
-    font-weight: 400;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 90%;
+    height: 90%;
+    word-wrap: True;
+    padding: auto;
 }
-
 
 @media screen and (max-width: 480px) {
     .pr{

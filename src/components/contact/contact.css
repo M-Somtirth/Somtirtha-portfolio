@@ -86,6 +86,16 @@ button{
     font-weight: 500;
     cursor: pointer;
 }
+.linkedin {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from the parent */
+  }
+  
+.linkedin:hover {
+    color: #154d14;
+  }
+  
+
 @media screen and (max-width: 480px) {
     .c{
         height: 150vh;

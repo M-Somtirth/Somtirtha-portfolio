@@ -15,14 +15,13 @@ const Intro = () => {
             <div className='i-itemwrapper'>
               <div className='i-item'>System Engineer</div>
               <div className='i-item'>Data Analyst</div>
-              <div className='i-item'>Software Developer</div>
               <div className='i-item'>Machine Learning Enthusiast</div>
               <div className='i-item'>Coder</div>
               <div className='i-item'>Singer</div>
             </div>
           </div>
-          <p className='i-desc'>Master's in Computer Science and Engineering from Jadavpur University. A System's Engineer at Indiamart Intermesh Ltd.
-            Served as Data Analyst at MOL-IT India. Qualified GATE and NET examinations 2020 and 2022 respectively. </p>
+          <p className='i-desc'>System Engineer at Indiamart Intermesh Ltd.<br/>
+          Master of Engineering in Computer Science and Engineering form Jadavpur University</p>
         </div>
         
         <svg className='i-scroll' width="200" height="200" viewBox="-100 -100 200 200">
@@ -54,6 +53,7 @@ const Intro = () => {
         <div className='i-bg'></div>
         <img src={Me} alt='' className='i-img'></img>
       </div>
+      
     </div>
   )
 }

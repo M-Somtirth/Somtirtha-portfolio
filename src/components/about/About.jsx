@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './about.css'
 import achiv from '../../img/achivements.png'
 import gate from '../../img/GATE.png'
 import net from '../../img/UGCNET.png'
+import { ThemeContext } from '../../context'
 const About = () => {
+    const theme= useContext(ThemeContext);
+    const darkMode=theme.state.darkMode;
     return (
         <div className='a'>
+            
             <div className='a-left'>
-                <div className='a-card bg'>
+                <div className='a-card bg' style={{backgroundColor: darkMode ? '#59b256': '#222' }}>
                 </div>
                 <div className='a-card'>
                     <img src={achiv} alt="" className='a-img' />
@@ -29,7 +33,7 @@ const About = () => {
                     <img src={gate} alt="" className='a-imggate'/>
                     <div className='a-imgtitle'>
                         <h4>GATE 2020</h4>
-                        <p>Qualified GATE 2020 with an AIR-726 in CS/IT domain.</p>
+                        <p>Qualified GATE 2019 and GATE 2020 with an AIR-726 in CS/IT domain.</p>
 
                     </div>
                 </div>

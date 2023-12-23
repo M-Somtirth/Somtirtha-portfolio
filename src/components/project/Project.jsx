@@ -14,7 +14,17 @@ const Project = () => {
             <img src={graph} alt="" className='pr-graph' />
           </div>
           <div className='pr-cback'>
-            back
+            <div className='pr-texts'>
+              Evidence-based Drug Repurposing using Graph Neural Network.
+              <div className='pr-list'>
+                <ul>
+                  <li>Heterogeneous-Graph of Disease-Genes-Drugs.</li>
+                  <li>R-GCN variants Parallel, Residual, JK-Net used for link prediction.</li>
+                  <li>Validation was performed on new Drug-Gene pairs based on heighest 
+                    scores and the results were validated with evidence.</li>
+                </ul> 
+              </div>
+            </div>
           </div>
         </div>
       </div>

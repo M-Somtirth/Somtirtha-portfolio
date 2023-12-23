@@ -61,6 +61,12 @@
     height: 120px;
     border-radius: 30px;
 }
+.a-imgtitle{
+    width: 70%;
+}
+.a-imgtitle1{
+    width: 70%;
+}
 .a-desc{
     display: flex;width: 80%;
     margin-bottom: -30px;
