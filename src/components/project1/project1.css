@@ -59,8 +59,8 @@
     .pr{
         display: flex;
         flex-direction: column;
-        width: 30%;
-        height: 20vh;
+        width: 80%;
+        height: 40vh;
         
     }    
 }

@@ -76,8 +76,10 @@
 @media screen and (max-width: 480px) {
     .a{
         flex-direction: column;
+        height: 100vh;
     }      
     .a-left{
         display: none;
     }
+    
 }

@@ -57,8 +57,9 @@
 
 @media screen and (max-width: 480px) {
     .pr{
-        width: 30%;
-        height: 20vh;
-        
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 40vh;
     }    
 }

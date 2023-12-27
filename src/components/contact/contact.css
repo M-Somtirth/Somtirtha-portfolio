@@ -105,5 +105,97 @@ button{
     }
     button{
         margin: 20px;
-    }       
+    } 
+    .c-bgleft{
+        position: absolute;
+        width: 20px;
+        height: 100%;
+        background-color: #59b256;
+    }
+    
+    .c-bgright{
+        position: absolute ;top:0px; right: 0px;
+        width: 20px  ;
+        height: 100%;
+        background-color: #e6990b;
+    }   
+    .c-wrapper{
+        padding: 20px;
+        display: flex;
+    }
+    .c-left{
+        
+        flex: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    
+    .c-img-item{
+        display: flex;
+        
+        font-weight: 500;
+        font-size: 20px;
+        margin: 50px 0px;
+        width: 60%;
+    }
+    .c-imgp{
+        margin-right: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .c-rightr{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .c-desc{
+        width: 100%;
+        font-weight: 200;
+    }
+    
+    form{
+        margin-top: 20px;
+    }
+    input{
+        width: 50%;
+        height: 50px;
+        border: none;
+        border-bottom: 1px solid black;
+        margin: 10px 0px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    
+    textarea{
+        width: 90%;
+        height: 100px;
+        overflow: hidden;
+        border-bottom: 2px solid black;
+        margin: 20px 0px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    button{
+        border: none;
+        text-align: center;
+        padding: 15px;
+        background-color: #59b256;
+        color: aliceblue;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .linkedin {
+        text-decoration: none; /* Remove underline */
+        color: inherit; /* Inherit text color from the parent */
+      }
+      
+    .linkedin:hover {
+        color: #154d14;
+      }   
 }
