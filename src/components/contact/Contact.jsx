@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <div className='c-img-item'>
               <img src={address} alt="" className='c-imgp' />
-              Mathkol Vivekananda Road Kolkata-700065.
+              Dum Dum Cantonment Kolkata-700065.
             </div>
             <div className='c-img-item'>
               <img src={link} alt="" className='c-imgp' />

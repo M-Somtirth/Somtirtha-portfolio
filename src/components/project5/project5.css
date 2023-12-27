@@ -61,7 +61,7 @@
     padding: auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .pr5{
         display: flex;
         flex-direction: column;

@@ -75,7 +75,7 @@
     position: absolute;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .i{
         flex-direction: column;
     }   

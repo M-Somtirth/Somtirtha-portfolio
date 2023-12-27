@@ -96,9 +96,9 @@ button{
   }
   
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .c{
-        height: 150vh;
+        height: 250vh;
     }
     .c-wrapper{
         flex-direction: column;
@@ -137,12 +137,14 @@ button{
         font-weight: 500;
         font-size: 20px;
         margin: 50px 0px;
-        width: 60%;
+        width: 50%;
     }
     .c-imgp{
         margin-right: 30px;
-        width: 50px;
+        width: 40px;
         height: 50px;
+        word-wrap: break-word;
+        white-space: normal;
     }
     
     .c-rightr{
@@ -174,7 +176,7 @@ button{
     
     textarea{
         width: 90%;
-        height: 100px;
+        height: 50px;
         overflow: hidden;
         border-bottom: 2px solid black;
         margin: 20px 0px;

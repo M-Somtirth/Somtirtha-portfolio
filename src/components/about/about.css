@@ -68,15 +68,16 @@
     width: 70%;
 }
 .a-desc{
-    display: flex;width: 80%;
+    display: flex;
+    width: 80%;
     margin-bottom: -30px;
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .a{
         flex-direction: column;
-        height: 100vh;
+        height: 120vh;
     }      
     .a-left{
         display: none;
