@@ -18,7 +18,7 @@ const About = () => {
                 </div>
             </div>
             <div className='a-right'>
-                <div className='i-title'>
+                <div className='a-title'>
                     <h1> Achievements</h1>
                 </div>
                 <div className='a-desc'>

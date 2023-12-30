@@ -37,7 +37,7 @@ const Contact = () => {
               <img src={phone} alt="" className='c-imgp' />+91 7044361364
             </div>
             <div className='c-img-item'>
-              <img src={mail} alt="" className='c-imgp' /> somtirthacse@gmail.com / somtirtham.1997@gmail.com
+              <img src={mail} alt="" className='c-imgp' /> somtirthacse@gmail.com
             </div>
             <div className='c-img-item'>
               <img src={address} alt="" className='c-imgp' />

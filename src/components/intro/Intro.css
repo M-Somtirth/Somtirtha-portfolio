@@ -95,4 +95,7 @@
         object-fit: cover;
         position: absolute;
     }
+    .i-desc{
+        font-size: 12px;
+    }
 }

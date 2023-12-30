@@ -32,6 +32,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 10px;
     }
-        
+    @keyframes moveText {
+        0% {
+            transform: translateX(0%); /* Move text to the left initially */
+        }
+        100% {
+            transform: translateX(0%); /* Move text to the right at the end of the animation */
+        }
+    }
+    
+    .warn p {
+        animation: moveText 40s linear infinite; /* Adjust the duration and timing function as needed */
+    }
 }

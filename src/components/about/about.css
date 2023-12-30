@@ -82,5 +82,7 @@
     .a-left{
         display: none;
     }
-    
+    .a-title{
+        font-size: 20px;
+    }
 }

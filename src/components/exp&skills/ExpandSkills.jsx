@@ -22,8 +22,8 @@ const ExpandSkills
       </div>
       <div className='i-right'>
         <div className='i-rightwrapper' style={{backgroundColor: darkMode && '#555'}}>
-            <div className='i-title'><h1> Skills </h1>
-                <ul>
+            <div className='i-rtitle'><h1> Skills </h1>
+                <ul className='i-list'>
                   <li>Languages: Python, Java, C#</li>
                   <li>Frameworks: Spring, .Net</li>
                   <li>Databases: Oracle, MySQL</li>
