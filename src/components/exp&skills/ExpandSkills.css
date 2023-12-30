@@ -1,0 +1,131 @@
+.i{
+    display:flex;
+    height: 100vh;
+}
+.i-left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.i-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.i-exp{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.i-leftwrapper{
+    height: 50%;
+    background-color: blanchedalmond;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.i-rightwrapper{
+    height: 50%;
+    background-color: rgb(243, 200, 135);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.i-item{
+    height: 50px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #3ca352;
+    display: flex;
+    align-items: center;
+}
+.i-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.i-bg{
+    clip-path: polygon(100% 0%, 100% 49%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-image: url("../../img/JU.png");
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.i-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+@media screen and (max-width: 500px) {
+    .i{
+        display:flex;
+        height: 100vh;
+    }
+    .i-left{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .i-title{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .i-exp{
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .i-leftwrapper{
+        height: 50%;
+        background-color: blanchedalmond;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .i-rightwrapper{
+        height: 50%;
+        background-color: rgb(243, 200, 135);
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .i-item{
+        height: 50px;
+        font-size: 40px;
+        font-weight: 300;
+        color: #3ca352;
+        display: flex;
+        align-items: center;
+    }
+    .i-right{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .i-bg{
+        clip-path: polygon(100% 0%, 100% 49%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+        background-image: url("../../img/JU.png");
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .i-img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+}

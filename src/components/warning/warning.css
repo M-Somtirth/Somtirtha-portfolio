@@ -1,0 +1,37 @@
+.warn{
+    background-attachment: fixed;
+    background-position: 0%;
+    background-color: brown;
+}
+.p-warn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+@keyframes moveText {
+    0% {
+        transform: translateX(-50%); /* Move text to the left initially */
+    }
+    100% {
+        transform: translateX(50%); /* Move text to the right at the end of the animation */
+    }
+}
+
+.warn p {
+    animation: moveText 30s linear infinite; /* Adjust the duration and timing function as needed */
+}
+
+@media screen and (max-width: 500px) {
+    .warn{
+        background-attachment: fixed;
+        background-position: 0%;
+        background-color: brown;
+    }
+    .p-warn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        
+}

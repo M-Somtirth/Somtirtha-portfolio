@@ -10,13 +10,6 @@ const ProductList
  = () => {
   return (
     <div className='pl'>
-        <div className='pl-title'><h1> Experience </h1></div>
-        <div className='pl-achievements'>
-            <p>
-                Backend developer experienced in Java, Python, Apache Solr and various other server health monitoring tools.
-                Experienced data analyst managing a variety of reporting and automation projects, with additional expertise in system design through the development of multiple systems from scratch.
-            </p>
-        </div>
         <div className='pl-title'>
           <h1> Project List</h1>
         </div>
@@ -27,11 +20,14 @@ const ProductList
           </p>
         </div>
         <div className='pl-list'>
-            <Project/>
-            <Project1/>
-            <Project2/>
+            
             <Project4/>
-            <Project5/>
+            
+            <Project1/>
+            
+            <Project2/>
+            <Project5/> 
+            <Project/>
         </div>
     </div>
   )
