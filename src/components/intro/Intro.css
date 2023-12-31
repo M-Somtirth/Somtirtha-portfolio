@@ -22,6 +22,7 @@
 }
 .i-itemwrapper{
     height: 100%;
+    width: fit-content;
     animation: move 10s ease-in-out infinite alternate;
 }
 @keyframes  move{
